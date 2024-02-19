@@ -37,3 +37,13 @@ constant factors.
 Describe your reasoning and the conclusion you've come to. Your reasoning is
 most important -- you can easily find the answer, but you need to demonstrate
 that you've understood the concept. Add your answer to this markdown file.
+
+## Average-case complexity 
+
+In the lectures we talked about the best case time comlexity being $\ Theat(n) $
+and the worst case time complexity being $\ Theat(n^{2}) $ Think that the average case 
+time complexity is &\ \Theta(n^{2}) $. My reasoning for this is because the average
+case must be between the worst and best case. In this senarios though we only get the best
+case when we are given a already sorted list. We would get the worst case from when the input is 
+in reversed order. In the average case senario We would most likey be getting lists that are not fully sorted or fully reversed 
+resulting in both some comparisons and swaps occuring. 
