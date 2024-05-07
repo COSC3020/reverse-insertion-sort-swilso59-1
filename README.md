@@ -47,3 +47,5 @@ case must be between the worst and best case. In this senarios though we only ge
 case when we are given a already sorted list. We would get the worst case from when the input is 
 in reversed order. In the average case senario We would most likey be getting lists that are not fully sorted or fully reversed 
 resulting in both some comparisons and swaps occuring. 
+
+// I recieved help from the TA, and repository reverse-insertion-sort-swilso59
